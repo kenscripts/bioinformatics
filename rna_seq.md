@@ -1,4 +1,6 @@
-# RNA-seq
+Steps and programs related to RNA-seq analysis.
+
+# Table of Contents
 * Read Processing
 
 # Read Processing
