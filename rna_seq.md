@@ -6,6 +6,7 @@ Steps and programs related to RNA-seq analysis.
 # Read Processing
 * [fastp]((https://github.com/OpenGene/fastp#citation))
     * written in C++ and implements multi-threading
+    * can be viewed as a mix of quality control tools (i.e. FASTQC) and data filtering/trimming tools (i.e. Trimmomatic)
     * uses algorithm from [AfterQC](https://github.com/OpenGene/AfterQC) which involves overlap analysis to make corrections and for adapter trimming
         * method optimizes offset O to obtain the minimal edit distance
         * when the inserted DNA template is less than the sequencing length, the offset O for the best overlap will be negative
