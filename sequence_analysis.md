@@ -8,7 +8,7 @@ Things related to the broad topic of biological sequence analysis.
   * Sequence: FASTA, FASTQ
       * [finding read length and number of reads in fastq](https://www.biostars.org/p/295536/)
           > `# find read length`\
-          > `awk 'NR%4==2{printlength($0)}' $FASTQ`\
+          > `awk 'NR%4==2 {print length($0)}' $FASTQ`\
           > `# find number of reads`\
           > `awk 'END {print NR/4}' $FASTQ`
   * Alignments: SAM, BAM
