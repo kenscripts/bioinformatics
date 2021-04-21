@@ -10,4 +10,4 @@
     *  Sequence analysis
       *  Clean reads
       *  qiime2
-        * [trim primers (--p-trim-* <primer_len>) during denoising step because they can interfere with dada2](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)      
+        * [trim primers during denoising step because they can interfere with dada2](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)      
