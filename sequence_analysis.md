@@ -19,6 +19,7 @@ Things related to the broad topic of biological sequence analysis.
    * compositional data analysis (CoDA) attempts to deal with these problems
       * log-ratio transformation of data
          * three log-ratio transformations: additive log-ratio (alr), centered log-ratio (clr), isometric log-ratio (ilr)
+         * log transformation put compositional data into Euclidean space
 
 # File Formats
 * Sequence: FASTA, FASTQ
