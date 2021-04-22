@@ -10,7 +10,7 @@
     *  sequence analysis
       * clean reads
       * qiime2 to generate abundance tables, taxonomic classification, and diversity metrics
-         * [trim primers during denoising step because they can interfere with dada2; many reads will be removed as chimeras](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)      
+         * [trim primers during denoising step because they can interfere with dada2 and many reads will be removed as chimeras](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)      
       * alpha (within sample) diversity
       * beta (between sample) diversity
       * taxonomic composition
