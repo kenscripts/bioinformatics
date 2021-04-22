@@ -8,3 +8,6 @@
     * a co-expression network can be constructed from genes with similar expression patterns across samples
     * a co-abundance network can be constructed from amplicon sequence variants/otus with similar abundance profiles across samples
   * networks can identify correlations; differential network analysis can identify changes in networks between phenotypes
+
+# Workflow
+   * choose correlation measure
