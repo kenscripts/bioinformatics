@@ -9,10 +9,11 @@ Things related to the broad topic of biological sequence analysis.
 * [NextGen sequencing data is compositional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
    * sequencing instruments deliver only a certain number of reads
       * total read count is a fixed-size, random sample of the relative abundance of molecules and cannot be related to the absolute count in the sample
-   * true independence does not hold in NextGen sequencing
-      * the abundance of one molecule affects the abudance of another molecule 
    * relative abundance is compositional and is not constrained by Euclidean space
       * common methods of analysis are not applicable
+   * true independence does not hold in NextGen sequencing
+      * the abundance of one molecule affects the abudance of another molecule
+
 # File Formats
 * Sequence: FASTA, FASTQ
    * [finding read length and number of reads in fastq](https://www.biostars.org/p/295536/)
