@@ -10,7 +10,7 @@ Things related to the broad topic of biological sequence analysis.
    * sequencing instruments deliver only a certain number of reads
       * total read count is a fixed-size, random sample of the relative abundance of molecules and cannot be related to the absolute count in the sample
    * relative abundance is compositional and is not constrained by Euclidean space
-      * common methods of analysis are not applicable
+      * common methods of statistical analysis are not applicable in non-Euclidean space
       * compositional data have a correlation problem
          * exhibit spurious correlation upon subsetting or aggregation
          * have a negative correlation bias 
