@@ -1,18 +1,23 @@
 # Microbiome Analysis
-  * Amplicon Sequencing Workflow
-    *  sample collection
-    *  DNA isolation
-    *  PCR
-       * [to reduce the introduction of chimeras, do the following:](https://forum.qiime2.org/t/high-chimera-rate-in-dada2/16935)
-         * use high fidelity polymerase
-         * add more initial DNA and reduce the number of PCR cycles (~ 25 cycles)  
-    *  sample sequencing
-    *  sequence analysis
+* Amplicon Sequencing Workflow
+   * sample collection
+   * DNA isolation
+   * PCR
+      * [to reduce the introduction of chimeras, do the following:](https://forum.qiime2.org/t/high-chimera-rate-in-dada2/16935)
+      * use high fidelity polymerase
+      * add more initial DNA and reduce the number of PCR cycles (~ 25 cycles)  
+   *  sample sequencing
+   *  sequence analysis
       * clean reads
       * qiime2 to generate abundance tables, taxonomic classification, and diversity metrics
-         * [trim primers during denoising step because they can interfere with dada2 and many reads will be removed as chimeras](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)      
+         * [trim primers during denoising step because they can interfere with dada2 and many reads will be removed as chimeras](https://forum.qiime2.org/t/removing-primers-before-dada2/3071)
+         * diversity metrics are generated from a normalized feature table
+            * distances are affected by feature counts
+            * most common normalization method is rarefying; while debated some studies have indicated this is an appropriate normalization method ([Weiss et al., 2017](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-017-0237-y#Sec7))       
       * alpha (within sample) diversity
       * beta (between sample) diversity
+         * calculate distance: Jaccard, Bray-Curtis, Unweighted-Generalized-Weighted UniFrac
+         * plot ordination: PCoA, NDMS 
       * taxonomic composition
       * differential abundance
       * co-abundance networks
