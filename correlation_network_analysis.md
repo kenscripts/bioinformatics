@@ -9,14 +9,22 @@
     * a co-abundance network can be constructed from amplicon sequence variants/otus with similar abundance profiles across samples
   * networks can identify correlations; differential network analysis can identify changes in networks between phenotypes
 
-# Workflow ([van Dam et al., 2018](https://academic.oup.com/bib/article/19/4/575/2888441))
+# Workflow ([van Dam et al., 2018](https://academic.oup.com/bib/article/19/4/575/2888441)) using [WGCNA](https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/#manualInstall) R package
 * construct similarity matrix using correlation measure
    * Pearson, Spearman, Bray-Curtis
    * next-gen sequencing technologies produce compositional data; for compositional data use following measures:
       * linear Pearson correlation coefficient produced by SparCC
       * proportionality
-* network is constructed by transforming similarity matrix to adjaceny matrix
+* networks are constructed by transforming a similarity matrix to adjaceny matrix
+   * adjaceny matrix is a symmetric n x n matrix with values from 0 to 1 that denote the network connection strength between two nodes
+   * a similarity matrix is transformed into an adjaceny matrix using a thresholding procedure
+      * unweighted networks are binary, 1 for connected and 0 for unconnected
+         * constructed by hard-thresholding procedure (1 > threshold, 0 < threshold)
+      * weighted networks contain continuous values between 0 and 1 that represent connection strength
+         * constructed by soft-thresholding procedure (correlation measure is raised to a power)   
 * module definition
+   * modules are defined by interconnectedness
+   * clustering   
 * downstream analysis
    * regulatory network identification
    * differential co-expression analyses
