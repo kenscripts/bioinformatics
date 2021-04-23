@@ -15,6 +15,7 @@
             * distances are affected by feature counts
             * most common normalization method is rarefying; while debated some studies have indicated this is an appropriate normalization method ([Weiss et al., 2017](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-017-0237-y#Sec7))       
       * alpha (within sample) diversity
+         * [effective number of species](http://www.loujost.com/Statistics%20and%20Physics/Diversity%20and%20Similarity/EffectiveNumberOfSpecies.htm) specifies true diversity in sample 
       * beta (between sample) diversity
          * calculate distance: Jaccard, Bray-Curtis, Unweighted-Generalized-Weighted UniFrac
          * plot ordination: PCoA, NDMS 
