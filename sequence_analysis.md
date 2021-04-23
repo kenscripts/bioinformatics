@@ -23,7 +23,7 @@ Things related to the broad topic of biological sequence analysis.
          * centered log-ratio (clr): log(feature of interest/geometric mean)
          * isometric log-ratio (ilr): sequential log-ratios between two-groups of features
       * correlation can be assessed using log-transformed compositional data
-         * SparCC: estimates linear Pearson correlation from variances in log-ratios ([Friedman and Alm, 2012](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002687); [Watts et al., 2019](https://academic.oup.com/bioinformatics/article/35/6/1064/5086389)   
+         * SparCC: estimates linear Pearson correlation from variances in log-ratios ([Friedman and Alm, 2012](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002687); [Watts et al., 2019](https://academic.oup.com/bioinformatics/article/35/6/1064/5086389))   
          
 
 # File Formats
