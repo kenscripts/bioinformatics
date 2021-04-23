@@ -4,8 +4,8 @@
    * DNA isolation
    * PCR
       * [to reduce the introduction of chimeras, do the following:](https://forum.qiime2.org/t/high-chimera-rate-in-dada2/16935)
-      * use high fidelity polymerase
-      * add more initial DNA and reduce the number of PCR cycles (~ 25 cycles)  
+        * use high fidelity polymerase
+        * add more initial DNA and reduce the number of PCR cycles (~ 25 cycles)  
    *  sample sequencing
    *  sequence analysis
       * clean reads
