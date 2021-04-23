@@ -6,7 +6,7 @@ Things related to the broad topic of biological sequence analysis.
 * Tools
 
 # Next-Generation Sequencing
-* [NextGen sequencing data is compositional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
+* NextGen sequencing data is compositional ([Gloor et al., 2017](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full))
    * sequencing instruments deliver only a certain number of reads
       * total read count is a fixed-size, random sample of the relative abundance of molecules and cannot be related to the absolute count in the sample
    * relative abundance is compositional and is not constrained by Euclidean space
@@ -22,6 +22,9 @@ Things related to the broad topic of biological sequence analysis.
             * additive log-ratio (alr): log(feature of interest/invariant feature)
             * centered log-ratio (clr): log(feature of interest/geometric mean)
             * isometric log-ratio (ilr): sequential log-ratios between two-groups of features
+      * correlation can be assessed using log-transformed compositional data
+         * tools:
+            * SparCC: estimates linear Pearson correlation from variances in log-ratios ([Friedman and Alm, 2012](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002687); [Watts et al., 2019](https://academic.oup.com/bioinformatics/article/35/6/1064/5086389)   
          
 
 # File Formats
