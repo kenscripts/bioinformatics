@@ -1,6 +1,6 @@
 # Table of Contents
-  * Introduction
-  * Workflow
+  * Introduction to Network Analysis
+  * General Network Analysis Workflow
 
 # Introduction
   * a network can be constructed from features with similar behavior across samples
@@ -9,7 +9,7 @@
     * a co-abundance network can be constructed from amplicon sequence variants/otus with similar abundance profiles across samples
   * networks can identify correlations; differential network analysis can identify changes in networks between phenotypes
 
-# Workflow ([van Dam et al., 2018](https://academic.oup.com/bib/article/19/4/575/2888441)) using [WGCNA](https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/#manualInstall) R package
+# General Network Analysis Workflow ([van Dam et al., 2018](https://academic.oup.com/bib/article/19/4/575/2888441))
 * construct similarity matrix using correlation measure
    * Pearson, Spearman, Bray-Curtis
    * next-gen sequencing technologies produce compositional data; for compositional data use following measures:
