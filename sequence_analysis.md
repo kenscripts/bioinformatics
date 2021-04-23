@@ -17,9 +17,12 @@ Things related to the broad topic of biological sequence analysis.
    * true independence does not hold in NextGen sequencing
       * the abundance of one molecule affects the abudance of another molecule
    * compositional data analysis (CoDA) attempts to deal with these problems
-      * log-ratio transformation of data
-         * three log-ratio transformations: additive log-ratio (alr), centered log-ratio (clr), isometric log-ratio (ilr)
-         * log transformation put compositional data into Euclidean space
+      * log-ratio transformation of data puts compositional data into Euclidean space
+         * three log-ratio transformations:
+            * additive log-ratio (alr): log(feature of interest/invariant feature)
+            * centered log-ratio (clr): log(feature of interest/geometric mean)
+            * isometric log-ratio (ilr): sequential log-ratios between two-groups of features
+         
 
 # File Formats
 * Sequence: FASTA, FASTQ
