@@ -18,12 +18,14 @@
 * networks are constructed by transforming a similarity matrix to adjaceny matrix
    * adjaceny matrix is a symmetric n x n matrix with values from 0 to 1 that denote the network connection strength between two nodes
    * a similarity matrix is transformed into an adjaceny matrix using a thresholding procedure
-      * unweighted networks are binary, 1 for connected and 0 for unconnected
+      * unweighted networks are binary, 0 for unconnected and 1 for connected
          * constructed by hard-thresholding procedure (1 > threshold, 0 < threshold)
       * weighted networks contain continuous values between 0 and 1 that represent connection strength
-         * constructed by soft-thresholding procedure (correlation measure is raised to a power)   
+         * constructed by soft-thresholding procedure (correlation measure is raised to a power)
+         * weighted adjaceny matrix is proportional to similarity matrix on a logarithmic scale   
 * module definition
-   * modules are defined by interconnectedness
+   * modules are defined as clusters of densely interconnected genes
+      * Topological Overlap Measure
    * clustering   
 * downstream analysis
    * regulatory network identification
