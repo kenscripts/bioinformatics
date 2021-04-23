@@ -18,13 +18,12 @@ Things related to the broad topic of biological sequence analysis.
       * the abundance of one molecule affects the abudance of another molecule
    * compositional data analysis (CoDA) attempts to deal with these problems
       * log-ratio transformation of data puts compositional data into Euclidean space
-         * three log-ratio transformations:
-            * additive log-ratio (alr): log(feature of interest/invariant feature)
-            * centered log-ratio (clr): log(feature of interest/geometric mean)
-            * isometric log-ratio (ilr): sequential log-ratios between two-groups of features
+      * three log-ratio transformations:
+         * additive log-ratio (alr): log(feature of interest/invariant feature)
+         * centered log-ratio (clr): log(feature of interest/geometric mean)
+         * isometric log-ratio (ilr): sequential log-ratios between two-groups of features
       * correlation can be assessed using log-transformed compositional data
-         * tools:
-            * SparCC: estimates linear Pearson correlation from variances in log-ratios ([Friedman and Alm, 2012](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002687); [Watts et al., 2019](https://academic.oup.com/bioinformatics/article/35/6/1064/5086389)   
+         * SparCC: estimates linear Pearson correlation from variances in log-ratios ([Friedman and Alm, 2012](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002687); [Watts et al., 2019](https://academic.oup.com/bioinformatics/article/35/6/1064/5086389)   
          
 
 # File Formats
