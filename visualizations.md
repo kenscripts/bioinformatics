@@ -7,7 +7,7 @@
 * files
    * karyotype file: defines the name, size, and color of chromosomes
    > `# format of this file` \
-   > `chr - <chr_name>  <chr_label> <start> <end> <color>`
+   > `chr - ID LABEL START END COLOR`
    * central configuration file: main file that helps to generate graph
       * settings are defined in this file
          * use format: variable = value
