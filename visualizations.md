@@ -8,7 +8,7 @@
    * karyotype file: defines the name, size, and color of chromosomes
    > `# format of this file` \
    > `chr - ID LABEL START END COLOR` \
-      * can be used to define position, identity, and color of cytogenetic bands
+      * can be used to define position, identity, and color of cytogenetic bands \
       > `# can append this info to end of basic karyotype file`\
       > `band CHR ID LABEL START END COLOR`
    * central configuration file: main file that helps to generate graph
