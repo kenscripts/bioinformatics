@@ -6,5 +6,5 @@
    * ideograms: graphical depiction of chromosome
 * files
    * karyotype file: defines the name, size, and color of chromosomes
-   > `# format` \
-   > `chr - <chr_name> <chr_label> <start> <end> <color>`    
+   > `# format of this file` \
+   > `chr - <chr_name>  <chr_label> <start> <end> <color>` `    
