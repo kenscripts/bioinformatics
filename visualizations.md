@@ -12,10 +12,14 @@
       * settings are defined in this file
          * use format: variable = value
          * setting can be grouped into blocks to create a hierarchial structure 
-         * some blocks have mulitple instances are enclosed in another block  
-      * usually imports other configuration files; this is accomplished with <<<include ...>>>
+         * some blocks have mulitple instances; these are enclosed in another block  
+      * usually imports other configuration files; this is accomplished with <<<include ...>>
          * image.conf
          * colors.conf
          * colors_fonts_patterns.conf
          * housekeeping.conf
-      * two files should always be imported from /etc in Circos distribution      
+      * two files should always be imported from /etc in Circos distribution
+         > `# colors, fonts, and fill patterns` \
+         > `<<< include .../etc/colors_fonts_patterns.conf >>` \
+         > `# system and debug parameters` \
+         > `<<< include .../etc/housekeeping.conf`
