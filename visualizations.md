@@ -7,4 +7,15 @@
 * files
    * karyotype file: defines the name, size, and color of chromosomes
    > `# format of this file` \
-   > `chr - <chr_name>  <chr_label> <start> <end> <color>` `    
+   > `chr - <chr_name>  <chr_label> <start> <end> <color>`
+   * central configuration file: main file that helps to generate graph
+      * settings are defined in this file
+         * use format: variable = value
+         * setting can be grouped into blocks to create a hierarchial structure 
+         * some blocks have mulitple instances are enclosed in another block  
+      * usually imports other configuration files; this is accomplished with <<<include ...>>>
+         * image.conf
+         * colors.conf
+         * colors_fonts_patterns.conf
+         * housekeeping.conf
+      * two files should always be imported from /etc in Circos distribution      
