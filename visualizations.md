@@ -22,4 +22,5 @@
          > `# colors, fonts, and fill patterns` \
          > `<<< include .../etc/colors_fonts_patterns.conf >>` \
          > `# system and debug parameters` \
-         > `<<< include .../etc/housekeeping.conf`
+         > `<<< include .../etc/housekeeping.conf >>`
+      * for parameters that rarely change, consider creating external configuration files
