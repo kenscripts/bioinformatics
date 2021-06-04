@@ -9,6 +9,7 @@
       * cytogenic bands
       * highlights are a special track type used for highlighting regions of image
          * data defined in external data files
+         > `# format of this file` \
          > `ID START END`
          * location defined in conf file using <highlights> block
          * wedge highlights are drawn outside of ideogram so they have start and end radial positions
