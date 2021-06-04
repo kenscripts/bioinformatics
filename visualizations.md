@@ -10,7 +10,7 @@
       * highlights
          * defined using highlights block; data stored in external data files
          > `# format of external data file` \
-         > `ID START END`
+         > `CHRID START END`
          * wedge highlights are drawn outside of ideogram so they have start and end radial positions
          * ideogram highlights are drawn inside ideograms
 * files
