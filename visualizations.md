@@ -7,7 +7,7 @@
    * ideograms: graphical depiction of chromosome
    * data tracks can appear inside or outside of ideograms
       * cytogenic bands
-      * highlights are a special track type used for highlighting regions of image
+      * highlights
          * defined using highlights block; data stored in external data files
          > `# format of external data file` \
          > `ID START END`
