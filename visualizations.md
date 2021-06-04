@@ -11,7 +11,7 @@
          * data defined in external data files
          > `# format of this file` \
          > `ID START END`
-         * location defined in conf file using <highlights> block
+         * location defined in conf file using highlights block
          * wedge highlights are drawn outside of ideogram so they have start and end radial positions
          * ideogram highlights are drawn inside ideograms
 * files
