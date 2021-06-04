@@ -5,7 +5,7 @@
 * anatomy of a circos image
    * based on a circular axis layout
    * ideograms: graphical depiction of chromosome
-   * data tracks can appear inside or outside circular layout
+   * data tracks can appear inside or outside of ideograms
       * cytogenic bands
       * highlights are a special track type used for highlighting regions of image
          * defined using highlights block; data stored in external data files
