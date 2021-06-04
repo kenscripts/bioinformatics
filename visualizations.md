@@ -2,8 +2,8 @@
 * [with R using pheatmap](https://davetang.org/muse/2018/05/15/making-a-heatmap-in-r-with-the-pheatmap-package/)
 
 # Circos
+* a circos image has a circular axis layout
 * anatomy of a circos image
-   * based on a circular axis layout
    * ideograms: graphical depiction of chromosome
    * data tracks can appear inside or outside of ideograms
       * cytogenic bands
