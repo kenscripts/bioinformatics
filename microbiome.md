@@ -1,4 +1,4 @@
-# Microbiome Analysis
+* 16S Primer Design 
 * Amplicon Sequencing Workflow
    * sample collection
    * DNA isolation
