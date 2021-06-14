@@ -1,11 +1,12 @@
 ### 16S surveys and primer design review
    * Why the 16S rRNA gene? The 16S rRNA gene is present in all bacteria, has conserved sequences that can be leveraged for primer design, and has variable evolutionary rates between organisms. This makes it a suitable marker for community profiling. The conserved sequences represent important sequences necessary for its 3D structure. Protein-coding genes do not contain conserved sequences at the nucleotide level that can be used for primer design so they cannot be used as markers (personal data).
-   * The 16S rRNA gene was analyzed differently as new technologies were introduced. Sequencing the 16S rRNA gene was first performed by a culture-independent cloning and sequencing approach but the introduction of next-generation sequencing introduced a culture-independent PCR sequencing approach. This lead to initial 16S surveys that introduced and produced thousands of sequences with pyrosequencing technology (Tringe and Hugenholtz, 2008). 16S surveys were then validated to work with Illumina technology, which was introduced after pyrosequencing.
+   * The 16S rRNA gene was analyzed differently as new technologies were introduced. Sequencing the 16S rRNA gene was first performed by a culture-dependent cloning and sequencing approach but the introduction of next-generation sequencing introduced a culture-independent PCR sequencing approach. This lead to initial 16S surveys that introduced and produced thousands of sequences with pyrosequencing technology (Tringe and Hugenholtz, 2008). 16S surveys were then validated to work with Illumina technology, which was introduced after pyrosequencing (Caporaso et al., 2010).
    * How were 16S primers designed? A lot of the primer design happened with the initial pyrosequencing studies and was pioneered by Rob Knight's laboratory. 16S primers contain different sequence regions.
-      * conserved 16S rRNA gene sequence (515F & 806R)
-         * 
+      * conserved 16S rRNA gene sequence
+         * The 515F & 806R primer pair has been used in the Earth Microbiome Project. It was initally used in Caporaso et al (2010). The reason for using this primer set was not clearly explained. Even though Liu et al. (2007) was cited, that work proposed using R357. Some interesting work from Wang and Qian (2009) looked at conserved 16S fragments. They showed 515F and 806R contained a high coverage rate. 
       * barcodes
-         * It was this inital technology that the idea of using barcodes was introduced
+         * The idea of using barcodes was introduced with the pyrosequencing technology (Hamady et al., 2008). Barcode must meet certain criteria: G+C content of 40-60 %, no consecutive bases, and no complementary with self or with primers.
+         * BarCrawl (Frank, 2009) is a software that generates barcodes to use with specified primers.
       * primer linkers
       * primer pads 
       * sequencing adaptors
