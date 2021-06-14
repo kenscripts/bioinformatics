@@ -5,7 +5,8 @@
       * conserved 16S rRNA gene sequence
          * The 515F & 806R primer pair has been used in the Earth Microbiome Project. It was initally used in Caporaso et al (2010). The reason for using this primer set was not clearly explained. Even though Liu et al. (2007) was cited, that work proposed using R357. Some interesting work from Wang and Qian (2009) looked at conserved 16S fragments. They showed 515F and 806R contained a high coverage rate. Wang et al. (2007) also showed that sequence classification using the V4 variable region, which is amplified by 515F & 806R primer pair, had one of lowest error rates.
       * barcodes
-         * The idea of using barcodes was introduced with the pyrosequencing technology (Parameswaran et al., 2007; et al., 2008). Barcode must meet certain criteria: G+C content of 40-60 %, no consecutive bases, and no complementary with self or with primers.
+         * The idea of using barcodes was introduced with the pyrosequencing technology (Parameswaran et al., 2007; et al., 2008).
+         * Barcode must meet certain criteria: G+C content of 40-60 %, no consecutive bases, and no complementary with self or with primers. Lengths of 2-10 nt have been used for barcodes.
          * BarCrawl (Frank, 2009) is a software that generates barcodes to use with specified primers.
       * primer linker
          * 2 nt that are non-homologous to target sequences
