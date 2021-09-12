@@ -5,5 +5,6 @@
   * [RNA-seq](https://github.com/kenscripts/bioinformatics/blob/main/rna_seq.md)
   * [Correlation Network Analysis]
   * [Visualizations](https://github.com/kenscripts/bioinformatics/blob/main/visualizations.md)
+  * [Functional Annotation]
 ## Statistics
   * Clustering
