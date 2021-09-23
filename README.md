@@ -3,7 +3,7 @@
 # Table of Contents
 
 ## Computer science
-  * Suffix tries
+  * Suffix trie
 
 ## Statistics
   * Distributions
