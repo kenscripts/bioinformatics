@@ -1,5 +1,9 @@
+# Distributions
+* [Mixture Models](https://stephens999.github.io/fiveMinuteStats/intro_to_mixture_models.html)
+
 # Distance
 * [Converting pairwise distance into matrix (in R)](https://stackoverflow.com/questions/22492767/converting-pairwise-distances-into-a-distance-matrix-in-r)
+
 # Clustering
 * [short article about clustering](https://www.nature.com/articles/nmeth.4299)
 * [exploring gene expression patterns using clustering methods](https://tavareshugo.github.io/data-carpentry-rnaseq/04b_rnaseq_clustering.html)
