@@ -1,10 +1,9 @@
-# Table of Contents
 * Bioinformatics combines knowledge from biology, statistics, and computer science. 
 
+# Table of Contents
 
 ## Computer science
-  * The computer science aspect of bioinformatics deals with the analysis of strings.
-
+  * Suffix tries
 
 ## Statistics
   * Distributions
