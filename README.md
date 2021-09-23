@@ -7,4 +7,5 @@
   * [Visualizations](https://github.com/kenscripts/bioinformatics/blob/main/visualizations.md)
   * [Functional Annotation](https://github.com/kenscripts/bioinformatics/blob/main/functional_annotation.md)
 ## Statistics
+  * [Mixture Models](https://stephens999.github.io/fiveMinuteStats/intro_to_mixture_models.html)
   * Clustering
