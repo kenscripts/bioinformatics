@@ -7,7 +7,8 @@
 
 
 ## Statistics
-  * [Mixture Models](https://stephens999.github.io/fiveMinuteStats/intro_to_mixture_models.html)
+  * Distributions
+    * Mixture models 
   * Clustering
 
 ## Biology
